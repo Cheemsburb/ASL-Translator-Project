@@ -11,12 +11,21 @@ The goal of this project was just for me to get an understanding of how machine 
 
 You can use the data collector to collect your own dataset and train your own model if you want, just update the file location of the new model in the code
 
-# 📦 INSTALLATION on CMD
+# 📦 INSTALLATION on Windows
 
 1. git clone https://github.com/Cheemsburb/ASL-Translator-Project.git
-2. cd "ASL COMPUTER VISION"
+2. cd "ASL-Translator-Project"
 3. python -m venv venv
 4. venv\Scripts\activate.bat
+5. pip install -r requirements.txt
+6. python test.py
+
+# 📦 INSTALLATION on Linux
+
+1. git clone https://github.com/Cheemsburb/ASL-Translator-Project.git
+2. cd "ASL-Translator-Project"
+3. python -m venv venv
+4. source venv/bin/activate
 5. pip install -r requirements.txt
 6. python test.py
 
